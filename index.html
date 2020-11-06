@@ -17,13 +17,27 @@
 </head>
 
 <body>
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
 
+    <script type="text/javascript">
+        var options = {
+            width: 800,
+            height: 600,
+            channel: "<channel ID>",
+            video: "thecrowdsourcegamer",
+            parent: ["handsomeguild.com", "www.handsomeguild.com"]
+        };
+        var player = new Twitch.Player("player", options);
+        player.setVolume(0.5);
+    </script>
     <h1>DAYS SINCE LAST MOLTEN GIANT PULL</h1>
     <h1>0</h1>
     &nbsp;
     <p><img src="/img/giant.jpg" alt="Thanks Culliane!"></p>
-    <p><iframe src="https://player.twitch.tv/?channel=thecrowdsourcegamer&parent=handsomeguild.com" height="600" width="800" frameborder="0" scrolling="false" allowfullscreen="true">
-    </iframe></p>
+    <p>
+        <div id="player"></div>
+
+    </p>
 
 
 </body>
