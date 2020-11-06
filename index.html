@@ -27,15 +27,16 @@
             video: "thecrowdsourcegamer",
             parent: ["handsomeguild.com", "www.handsomeguild.com"]
         };
-        var player = new Twitch.Player("player", options);
+        var player = new Twitch.Player("playerDiv", options);
         player.setVolume(0.5);
+        player.play();
     </script>
     <h1>DAYS SINCE LAST MOLTEN GIANT PULL</h1>
     <h1>0</h1>
     &nbsp;
     <p><img src="/img/giant.jpg" alt="Thanks Culliane!"></p>
     <p>
-        <div id="player"></div>
+        <div id="playerDiv"></div>
 
     </p>
 
