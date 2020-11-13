@@ -18,7 +18,7 @@
 
 <body>
     <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-    <h1>DAYS SINCE LAST MOLTEN GIANT PULL</h1>
+    <h1>DAYS SINCE LAST MC WIPE</h1>
     <h1 id="timer"></h1>
     &nbsp;
     <p><img src="/img/giant.jpg" alt="Thanks Culliane!"></p>
@@ -26,7 +26,7 @@
         <div id="playerDiv"></div>
     </p>
     <script>
-        var eventDate = new Date("11/5/2020").getTime();
+        var eventDate = new Date("11/12/2020").getTime();
         var now = new Date().getTime();
         var days = Math.floor((now - eventDate) / (1000 * 60 * 60 * 24));
         document.getElementById("timer").innerHTML = days;
