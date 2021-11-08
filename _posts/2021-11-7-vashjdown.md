@@ -1,5 +1,5 @@
 ---
 title: Lady Vashj is down
-subtitle: Here you'll find all the ways to get in touch with me
+subtitle: We did it!
 cover-img: /assets/vashj.jpg
 ---
