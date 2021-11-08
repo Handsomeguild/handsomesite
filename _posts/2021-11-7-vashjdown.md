@@ -2,6 +2,7 @@
 title: Lady Vashj is down
 subtitle: We did it!
 cover-img: /assets/vashj.jpg
+comments: true
 ---
 
 We were able to get Vashj down in just a few attempts.
